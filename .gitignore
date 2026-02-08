@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# PyTorch / TensorFlow model files (optional, if large)
+model.pth
+*.h5
+*.pt
+
+# Dataset (usually too large to track)
+dataset/
+raw_dataset/
