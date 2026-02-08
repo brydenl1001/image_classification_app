@@ -3,7 +3,7 @@ import random
 import shutil
 
 RANDOM_SEED = 42
-SOURCE_DIR = "raw_dataset"
+SOURCE_DIR = os.path.join("raw_dataset", "Rice_Image_Dataset")
 TARGET_DIR = "dataset"
 
 SPLIT = {
