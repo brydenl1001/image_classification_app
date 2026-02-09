@@ -4,10 +4,13 @@ env/
 ENV/
 
 # PyTorch / TensorFlow model files (optional, if large)
-model.pth
+rice_model.pth
 *.h5
 *.pt
+waste_model.pth
 
 # Dataset (usually too large to track)
-dataset/
-raw_dataset/
+rice_dataset/
+raw_rice_dataset/
+waste_dataset/
+raw_waste_dataset/

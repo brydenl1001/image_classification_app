@@ -4,8 +4,8 @@ from torchvision import datasets, models, transforms
 from torch.utils.data import DataLoader
 import os
 
-DATA_DIR = "dataset"
-MODEL_PATH = "model.pth"
+DATA_DIR = "waste_dataset"
+MODEL_PATH = "waste_model.pth"
 BATCH_SIZE = 32
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

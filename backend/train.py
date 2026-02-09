@@ -10,13 +10,13 @@ import copy
 # ------------------------------
 # CONFIG
 # ------------------------------
-DATA_DIR = "dataset"       # dataset/train & dataset/val
+DATA_DIR = "waste_dataset"
 NUM_CLASSES = len(os.listdir(os.path.join(DATA_DIR, "train")))  # auto detect
 BATCH_SIZE = 32
-NUM_EPOCHS = 5
+NUM_EPOCHS = 10
 LEARNING_RATE = 1e-4
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODEL_SAVE_PATH = "model.pth"
+MODEL_SAVE_PATH = "waste_model.pth"
 
 # ------------------------------
 # DATA TRANSFORMS
