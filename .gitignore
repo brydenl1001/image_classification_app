@@ -1,16 +1,35 @@
-# Virtual environment
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
 venv/
 env/
-ENV/
+*.env
 
-# PyTorch / TensorFlow model files (optional, if large)
-rice_model.pth
-*.h5
-*.pt
+# PyTorch model + dataset (do NOT commit large model/dataset)
 waste_model.pth
-
-# Dataset (usually too large to track)
-rice_dataset/
-raw_rice_dataset/
 waste_dataset/
-raw_waste_dataset/
+
+# Logs and packaging
+*.log
+build/
+dist/
+*.egg-info/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Expo / Node
+image_classification_app/ImageClassificationApp/node_modules/
+image_classification_app/ImageClassificationApp/.expo/
+image_classification_app/ImageClassificationApp/web-build/
+
+# OS files
+.DS_Store
+Thumbs.db

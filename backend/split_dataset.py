@@ -6,8 +6,8 @@ from pathlib import Path
 # ==========================
 # CONFIG
 # ==========================
-SOURCE_DIR = os.path.join("raw_waste_dataset", "images", "images")
-OUTPUT_DIR = "waste_dataset"
+SOURCE_DIR = os.path.join("raw_food_dataset", "images", "images")
+OUTPUT_DIR = "food_dataset"
 
 TRAIN_RATIO = 0.7
 VAL_RATIO = 0.15
